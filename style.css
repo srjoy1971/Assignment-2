@@ -78,6 +78,13 @@ body{
 }
 
 /* banner related style */
+.banner{
+    background-image: url(
+        "../Assignment-2/images/hero-bg.png"
+    );
+}
+
+
 
 /* about related style */
 .about{
@@ -297,12 +304,15 @@ body{
     padding-top: 10px;
 }
 
+.host-info p{
+    padding-bottom: 10px;
+}
 footer{
-    background-image: url(
-        "../Assignment-2/images/footer-bg.png"
-    );
-    background-repeat: no-repeat;
-    height: 450px;
+    max-width: 1600px;
+    margin-bottom: 40px;
+}
+.footer-section{
+    background-image: url('./images/footer-bg.png');
 }
 
 /* responsive media quary */
