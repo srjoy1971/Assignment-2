@@ -310,10 +310,54 @@ body{
 footer{
     max-width: 1600px;
     margin-bottom: 40px;
+
 }
 .footer-section{
-    background-image: url('./images/footer-bg.png');
+    position: relative;
+    margin-top: 100px;
 }
+/* .footer-section img{
+    padding-bottom: 25px;
+} */
+.footer-section img{
+    max-width: 1600px;
+    margin: 0 auto;
+    
+}
+.tec{
+    height: 50px;
+    width: 360px;
+}
+
+.footer-container{
+    position: absolute;
+    top:36%;
+    left: 525px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.footer-container .tec{
+    max-width: 400px;
+}
+.footer-logo{
+    
+    display:flex;
+}
+.footer-logo img{
+
+}
+.platform-item{
+    padding: 20px 20px 30px 20px;
+    color: #FFFFFF;
+}
+.footer-container{
+    color: #FFFFFF;
+}
+
+
+   
 
 /* responsive media quary */
 
